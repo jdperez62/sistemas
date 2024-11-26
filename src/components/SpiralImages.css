@@ -1,0 +1,33 @@
+.spiral-container {
+  position: relative;
+  width: 360px;
+  /* Diámetro inicial */
+  height: 360px;
+  /* Diámetro inicial */
+  overflow: hidden;
+}
+
+.spiral-image {
+  position: absolute;
+  width: 30px;  
+  height: 30px;  
+  border-radius: 50%;   
+  object-fit: cover;
+    /* Asegura que la imagen cubra el área sin deformarse */
+  opacity: 0;
+  /* Inicialmente invisibles */
+  transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out;
+  /* Transición para mostrar/ocultar */
+}
+
+.fade-in {
+  opacity: 1;
+  /* Visible */
+  /* transform: scale(1.2) perspective(500px) rotateX(50deg);*/
+  
+}
+
+.fade-out {
+  opacity: 0;
+  /* Invisible */
+}
