@@ -2,7 +2,7 @@
   "name": "espiral",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jdperez62.github.io/sistemas-y-entidades",
+  "homepage": "https://jdperez62.github.io/sistemas",
   "type": "module",
   "scripts": {
     "dev": "vite",
